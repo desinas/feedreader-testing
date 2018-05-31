@@ -22,6 +22,8 @@ The Tests cover these cases:
   
 - New Feed Selection Test 
   - load feeds function makes the content to change
+  
+![Output of Jasmine tests](outputJasminTests.PNG)
 
 ## What this Project covers?
 
