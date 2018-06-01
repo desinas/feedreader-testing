@@ -2,28 +2,23 @@
 
 In this project a web-based application is given, that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
-## Run the application, successfully!
+## Run the application, successfully
 
 In order to run the application, git clone or download could be use. The application is browser based and it tested in Chrome, Firefox. To run application just open index file with a browser.
 
 The application starts with testing and then the Feed Reader comes to load feeds and shows them in the page. There is a menu with other feeds that could be shown, at the preference of the user.
 
-The Tests cover these cases: 
+The 7 Tests cover these cases: 
  - RSS Feeds Test 
   - urls and names are defined.
   - url's and name's value are not empty.
-  
 - The menu Test 
   - menu is hidden by default
   - toggle when the menu icon is clicked
-  
 - Initial Entries Test 
-  - load feeds function is called and completes properly
-  
+  - load feeds function is called and completes properly 
 - New Feed Selection Test 
   - load feeds function makes the content to change
-  
-![Output of Jasmine tests](outputJasminTests.PNG)
 
 ## What this Project covers?
 
