@@ -118,19 +118,19 @@ $(function() {
             loadFeed(0, function (){
 
                 previousFeed = $(".feed").text();
+                loadFeed(2, function (){
+
+                    currentFeed = $(".feed").text();
+                });
+
                 done();
             });
 
         });
 
-        it('ensures changes at content when a new feed coming', function(done){
+        it('ensures changes at content when a new feed coming', function(){
 
-            loadFeed(2, function (){
-
-                currentFeed = $(".feed").text();
-                expect(previousFeed).not.toBe(currentFeed);
-                done();
-            });
+            expect(previousFeed).not.toBe(currentFeed);
 
         });
 
